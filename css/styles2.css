@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px black;
+}
+
+.logo{
+    margin-left: 10%;
+    flex: 20%;
+    text-align: left;
+}
+
+.logo h1{
+    font-family: 'Pacifico', cursive;
+    color: #2C4BD7;
+    font-size: 30px;
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #2C4BD7;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #AA6D1C;
+    border-top: 4px solid #2C4BD7;
+}
+
+#botao{
+    background: #2C4BD7;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+#botao:hover{
+    border:none;
+    background: #AA6D1C;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #2C4BD7;
+    margin: 0;
+    padding: 0;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.img-headline img{
+    max-width: 100%;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #AA6D1C;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: #2C4BD7;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;  
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    color:#2C4BD7;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #AA6D1C;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: #AA6D1C;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+.card:hover img{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+    background: linear-gradient(360deg, #2C4BD7, #1b35a8,#000000);
+    text-align: center;
+    border-top: 5px solid #AA6D1C;
+    color: white;
+}
+
+.logo-footer{
+    padding: 100px;
+}
+
+
+.agencia{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
